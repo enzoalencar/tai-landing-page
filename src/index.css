@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -35,20 +36,18 @@
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Custom purple theme colors */
+    --purple-primary: 267 65% 40%;
+    --purple-light: 267 65% 95%;
+    --purple-dark: 267 65% 20%;
   }
 
   .dark {
@@ -97,5 +96,15 @@
 
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .gradient-purple {
+    background: linear-gradient(135deg, #6B3FA0 0%, #8B5FBF 100%);
+  }
+  
+  .gradient-purple-light {
+    background: linear-gradient(135deg, rgba(107, 63, 160, 0.1) 0%, rgba(139, 95, 191, 0.1) 100%);
   }
 }
