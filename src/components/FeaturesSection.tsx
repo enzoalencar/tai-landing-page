@@ -1,5 +1,5 @@
 
-import { Coffee, Plane, Briefcase, MessageSquare, Brain, TrendingUp } from 'lucide-react';
+import { Coffee, Plane, MessageSquare, Brain, TrendingUp, Dumbbell } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
 const themes = [
@@ -10,15 +10,15 @@ const themes = [
     color: 'text-purple-primary'
   },
   {
-    icon: Plane,
-    title: 'Viagens',
-    description: 'Aprenda vocabulário essencial para aeroportos, hotéis e turismo',
+    icon: Dumbbell,
+    title: 'Academia',
+    description: 'Saiba como a melhor forma de conversar um "rato" de academia fora do Brasil',
     color: 'text-purple-primary'
   },
   {
-    icon: Briefcase,
-    title: 'Negócios',
-    description: 'Desenvolva habilidades para reuniões, apresentações e networking',
+    icon: Plane,
+    title: 'Viagens',
+    description: 'Aprenda vocabulário essencial para aeroportos, hotéis e turismo',
     color: 'text-purple-primary'
   }
 ];
@@ -54,8 +54,21 @@ export const FeaturesSection = () => {
           </p>
         </div>
 
-        {/* Temas Pré-Definidos */}
-        <div className="mb-20">
+        <div className="grid md:grid-cols-3 gap-8 mb-10">
+          {features.map((feature, index) => (
+            <Card key={index} className="group hover:shadow-lg transition-all duration-300 hover:scale-105 border-border">
+              <CardContent className="p-8">
+                <div className="w-12 h-12 mb-6 bg-purple-light dark:bg-purple-dark/20 rounded-xl flex items-center justify-center group-hover:bg-purple-primary transition-all duration-300">
+                  <feature.icon className="w-6 h-6 text-purple-primary group-hover:text-white" />
+                </div>
+                <h4 className="text-xl font-semibold mb-3 text-foreground">{feature.title}</h4>
+                <p className="text-muted-foreground">{feature.description}</p>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+
+        <div className="mb-10">
           <h3 className="text-2xl font-bold mb-8 text-center text-foreground">
             Temas Pré-Definidos
           </h3>
@@ -74,20 +87,6 @@ export const FeaturesSection = () => {
           </div>
         </div>
 
-        {/* Outras Funcionalidades */}
-        <div className="grid md:grid-cols-3 gap-8">
-          {features.map((feature, index) => (
-            <Card key={index} className="group hover:shadow-lg transition-all duration-300 hover:scale-105 border-border">
-              <CardContent className="p-8">
-                <div className="w-12 h-12 mb-6 bg-purple-light dark:bg-purple-dark/20 rounded-xl flex items-center justify-center group-hover:bg-purple-primary transition-all duration-300">
-                  <feature.icon className="w-6 h-6 text-purple-primary group-hover:text-white" />
-                </div>
-                <h4 className="text-xl font-semibold mb-3 text-foreground">{feature.title}</h4>
-                <p className="text-muted-foreground">{feature.description}</p>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
       </div>
     </section>
   );

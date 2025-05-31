@@ -12,8 +12,8 @@ export const Header = () => {
               <MessageCircle className="w-6 h-6 text-white" />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-foreground">AI English</h1>
-              <p className="text-xs text-muted-foreground">Converse & Aprenda</p>
+              <h1 className="text-xl font-bold text-foreground">Teacher AI</h1>
+              <p className="text-xs text-muted-foreground">Converse & Aprenda com tAI</p>
             </div>
           </div>
           

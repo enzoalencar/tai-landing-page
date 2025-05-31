@@ -28,16 +28,8 @@ export const HeroSection = () => {
                 size="lg" 
                 className="bg-purple-primary hover:bg-purple-primary/90 text-white font-semibold px-8 py-4 rounded-xl shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-105"
               >
-                Começar Agora
+                Baixar Agora
                 <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
-              
-              <Button 
-                variant="outline" 
-                size="lg"
-                className="border-purple-primary text-purple-primary hover:bg-purple-light dark:hover:bg-purple-dark/20 font-semibold px-8 py-4 rounded-xl transition-all duration-300 hover:scale-105"
-              >
-                Ver Demonstração
               </Button>
             </div>
           </div>
