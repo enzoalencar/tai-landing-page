@@ -44,8 +44,7 @@ export const HeroSection = () => {
                       <MessageCircle className="w-5 h-5 text-white" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-foreground">AI English Tutor</h3>
-                      <p className="text-sm text-muted-foreground">Online agora</p>
+                      <h3 className="font-semibold text-foreground">tAI</h3>
                     </div>
                   </div>
                   <div className="w-3 h-3 bg-green-500 rounded-full"></div>
