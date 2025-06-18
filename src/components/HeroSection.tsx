@@ -24,14 +24,15 @@ export const HeroSection = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-scale-in">
-              <a href="https://drive.google.com/drive/folders/1FlMZQgQ0wbOleMwaZrBja8QhEBvXnTzn?hl=pt-br" target="_blank" rel="noopener noreferrer"></a>
-              <Button 
-                size="lg" 
-                className="bg-purple-primary hover:bg-purple-primary/90 text-white font-semibold px-8 py-4 rounded-xl shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-105"
-              >
-                Baixar Agora
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
+              <a href="https://drive.google.com/drive/folders/1FlMZQgQ0wbOleMwaZrBja8QhEBvXnTzn?hl=pt-br" target="_blank" rel="noopener noreferrer" >
+                <Button 
+                  size="lg" 
+                  className="bg-purple-primary hover:bg-purple-primary/90 text-white font-semibold px-8 py-4 rounded-xl shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-105"
+                >
+                  Baixar Agora
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Button>
+              </a>
             </div>
           </div>
           
