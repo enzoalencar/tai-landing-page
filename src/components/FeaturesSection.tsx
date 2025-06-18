@@ -12,7 +12,7 @@ const themes = [
   {
     icon: Dumbbell,
     title: 'Academia',
-    description: 'Saiba como a melhor forma de conversar um "rato" de academia fora do Brasil',
+    description: 'Saiba a melhor forma de conversar com um "rato" de academia fora do Brasil',
     color: 'text-purple-primary'
   },
   {

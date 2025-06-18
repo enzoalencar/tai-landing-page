@@ -15,6 +15,7 @@ export const CTASection = () => {
         </p>
         
         <div className="flex flex-col md:flex-row gap-6 justify-center items-center max-w-4xl mx-auto">
+          <a href="https://drive.google.com/drive/folders/1FlMZQgQ0wbOleMwaZrBja8QhEBvXnTzn?hl=pt-br" target="_blank" rel="noopener noreferrer"></a>
           <Button 
             size="lg"
             className="bg-white text-purple-primary hover:bg-gray-100 font-semibold px-8 py-4 rounded-xl shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-105"
