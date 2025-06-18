@@ -1,5 +1,5 @@
 
-import { Coffee, Plane, MessageSquare, Brain, TrendingUp, Dumbbell } from 'lucide-react';
+import { Coffee, Plane, MessageSquare, Brain, TrendingUp, Dumbbell, AudioLines, Users } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
 const themes = [
@@ -30,15 +30,25 @@ const features = [
     description: 'O bot quebra o gelo ao enviar um cenário e pergunta inicial, eliminando qualquer bloqueio criativo.'
   },
   {
-    icon: Brain,
-    title: 'Feedback em Tempo Real',
-    description: 'Correções sutis de gramática e sugestões de vocabulário aparecem em balões roxos, sem interromper o fluxo.'
+    icon: Users,
+    title: 'Comunicação com amigo + TAI',
+    description: 'Megulhe numa conversa que não se sabe onde terminará por causa das mensagens dos outros participantes.'
   },
   {
-    icon: TrendingUp,
-    title: 'Progressão Personalizada',
-    description: 'O sistema ajusta a dificuldade das próximas perguntas, criando um ciclo de aprendizado contínuo.'
-  }
+    icon: AudioLines,
+    title: 'Comunicação Verbal',
+    description: 'Treine sua fala e veja cada palavra sendo transcrita automaticamente em nosso aplicativo. Transforme suas conversas em textos claros e precisos com facilidade!'
+  },
+  // {
+  //   icon: Brain,
+  //   title: 'Feedback em Tempo Real',
+  //   description: 'Correções sutis de gramática e sugestões de vocabulário aparecem em balões roxos, sem interromper o fluxo.'
+  // },
+  // {
+  //   icon: TrendingUp,
+  //   title: 'Progressão Personalizada',
+  //   description: 'O sistema ajusta a dificuldade das próximas perguntas, criando um ciclo de aprendizado contínuo.'
+  // }
 ];
 
 export const FeaturesSection = () => {

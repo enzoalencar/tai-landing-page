@@ -9,13 +9,13 @@ export const HeroSection = () => {
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           <div className="flex-1 text-center lg:text-left">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-foreground animate-fade-in">
-              Converse e Aprenda{' '}
+              Converse e aprenda{' '}
               <span className="text-purple-primary">Inglês</span>{' '}
-              sobre o que Você Ama!
+              sobre o que você ama!
             </h1>
             
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl animate-fade-in">
-              Escolha um tema, receba a primeira mensagem e mergulhe em diálogos naturais — sem precisar pensar no assunto.
+              Escolha um tema, receba a primeira mensagem e mergulhe em diálogos naturais - sem precisar pensar no assunto.
             </p>
             
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl animate-fade-in">
@@ -51,13 +51,13 @@ export const HeroSection = () => {
                 </div>
                 
                 <div className="space-y-4">
-                  <div className="bg-purple-primary/10 dark:bg-purple-primary/20 rounded-2xl p-4 ml-8">
+                  <div className="bg-purple-primary/10 dark:bg-purple-primary/20 rounded-2xl p-4 mr-8">
                     <p className="text-sm text-foreground">
-                      Imagine que você está em uma cafeteria londrina. O barista pergunta sobre sua bebida favorita. Como você responderia?
+                      Imagine you're in a coffee shop in warm weather. The barista asks you about your favourite drink. How would you answer?
                     </p>
                   </div>
                   
-                  <div className="bg-muted rounded-2xl p-4 mr-8">
+                  <div className="bg-muted rounded-2xl p-4 ml-8">
                     <p className="text-sm text-foreground">
                       I'd like a cappuccino with oat milk, please!
                     </p>
